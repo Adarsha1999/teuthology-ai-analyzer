@@ -1,0 +1,17 @@
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.env
+backend/.env
+.env.local
+frontend/.env.local
+*.egg-info/
+dist/
+build/
+data/
+frontend/node_modules/
+frontend/dist/
+backend.log
+frontend.log
+.bob/teuthology-prompts/

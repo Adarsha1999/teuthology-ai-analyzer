@@ -1,0 +1,89 @@
+alembic==1.18.4
+    # via -r backend/requirements.txt
+annotated-doc==0.0.4
+    # via fastapi
+annotated-types==0.7.0
+    # via pydantic
+anyio==4.14.0
+    # via
+    #   httpx
+    #   starlette
+    #   watchfiles
+beautifulsoup4==4.15.0
+    # via -r backend/requirements.txt
+certifi==2026.5.20
+    # via
+    #   httpcore
+    #   httpx
+click==8.4.1
+    # via uvicorn
+fastapi==0.137.1
+    # via -r backend/requirements.txt
+h11==0.16.0
+    # via
+    #   httpcore
+    #   uvicorn
+httpcore==1.0.9
+    # via httpx
+httptools==0.8.0
+    # via uvicorn
+httpx==0.28.1
+    # via -r backend/requirements.txt
+idna==3.18
+    # via
+    #   anyio
+    #   httpx
+mako==1.3.12
+    # via alembic
+markupsafe==3.0.3
+    # via mako
+psycopg2-binary==2.9.12
+    # via -r backend/requirements.txt
+pydantic==2.13.4
+    # via
+    #   -r backend/requirements.txt
+    #   fastapi
+    #   pydantic-settings
+pydantic-core==2.46.4
+    # via pydantic
+pydantic-settings==2.14.1
+    # via -r backend/requirements.txt
+python-dotenv==1.2.2
+    # via
+    #   -r backend/requirements.txt
+    #   pydantic-settings
+    #   uvicorn
+pyyaml==6.0.3
+    # via
+    #   -r backend/requirements.txt
+    #   uvicorn
+soupsieve==2.8.4
+    # via beautifulsoup4
+sqlalchemy==2.0.51
+    # via
+    #   -r backend/requirements.txt
+    #   alembic
+starlette==1.3.1
+    # via fastapi
+typing-extensions==4.15.0
+    # via
+    #   alembic
+    #   beautifulsoup4
+    #   fastapi
+    #   pydantic
+    #   pydantic-core
+    #   sqlalchemy
+    #   typing-inspection
+typing-inspection==0.4.2
+    # via
+    #   fastapi
+    #   pydantic
+    #   pydantic-settings
+uvicorn==0.49.0
+    # via -r backend/requirements.txt
+uvloop==0.22.1
+    # via uvicorn
+watchfiles==1.2.0
+    # via uvicorn
+websockets==16.0
+    # via uvicorn
